@@ -1,0 +1,22 @@
+传值code name 用jsonobject
+
+
+lombok  jdk1.8
+
+添加和保存之前，校验code 和name是否重复
+根据id去查询
+add up  合并 save
+分页
+
+传值都尽量用JSONObject
+返回值尽量用实体类类对象
+增改在一起
+删除多样化
+放入数据判断非空
+控制层和业务层都可以判断
+post   增删改
+get     查的时候采用
+能用方法解决的问题坚决不强转
+JSONObject继承自Map拥有更多功能
+业务放在业务层，判断放在控制层
+查询list都用get方式
